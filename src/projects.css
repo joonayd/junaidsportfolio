@@ -1,0 +1,221 @@
+/* PROJECTS */
+.projects-page {
+  background: linear-gradient(to right top, #ffdb6a, #ffa658, #ea5f40);
+  height: 100vh;
+  scroll-snap-align: start;
+  min-height: 100vh;
+
+  /* align-items: center;
+  justify-content: center; */
+
+  font-family: "Poppins", sans-serif;
+}
+.column1,
+.column2 {
+  display: flex;
+  align-items: center;
+}
+.projects-glass1 {
+  background: white;
+  min-height: 35vh;
+  width: 15%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+  border-radius: 3rem;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  flex-direction: column;
+  margin-left: 28rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+.projects-glass1 h2 {
+  color: white;
+}
+.projects-glass1 h1 {
+  color: black;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+.projects-glass1 h1:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass1 img {
+  height: 90%;
+  width: 90%;
+  border-radius: 2rem;
+  margin: 10px;
+  padding: 5px;
+}
+.projects-glass1 img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass2 {
+  background: white;
+  min-height: 50vh;
+  width: 28%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+  border-radius: 5rem;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+.projects-glass2 h2 {
+  color: white;
+}
+.projects-glass2 h1 {
+  color: black;
+  margin: 2rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.projects-glass2 h1:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass2 img {
+  height: 65%;
+  width: 45%;
+  border-radius: 2rem;
+  margin: 25px;
+  padding: 5px;
+}
+.projects-glass2 img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass3 {
+  background: white;
+  min-height: 40vh;
+  width: 25%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3));
+  border-radius: 5rem;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  flex-direction: column;
+  margin-left: 18rem;
+  margin-bottom: 15rem;
+  margin-top: -10rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+.projects-glass3 h2 {
+  color: white;
+}
+.projects-glass3 h1 {
+  color: black;
+  margin: 3rem;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.projects-glass3 h1:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass3 img {
+  height: 65%;
+  width: 45%;
+  border-radius: 2rem;
+  margin: 25px;
+  padding: 5px;
+}
+.projects-glass3 img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass4 {
+  background: white;
+  min-height: 30vh;
+  width: 20%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+  border-radius: 4rem;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  margin-left: 5rem;
+  margin-bottom: 20rem;
+  margin-top: 3rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+.projects-glass4 h2 {
+  color: white;
+}
+.projects-glass4 h1 {
+  color: black;
+  margin: 3rem;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+.projects-glass4 h1:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass4 img {
+  height: 65%;
+  width: 45%;
+  border-radius: 2rem;
+  margin: 25px;
+  padding: 5px;
+}
+.projects-glass3 img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.projects-glass1:hover,
+.projects-glass4:hover {
+  transition: transform 0.4s;
+  transform: scale(1.1);
+}
+.projects-glass2:hover,
+.projects-glass3:hover {
+  transition: transform 0.4s linear;
+  transition-delay: 0.1s;
+  transform: scale(1.1);
+}
+.project-btn1 {
+  width: 60%;
+  height: 3rem;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  background: linear-gradient(to right top, #ffa658, #ea5f40);
+}
+.project-btn2 {
+  width: 80%;
+  height: 4rem;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  margin-left: 0rem;
+  background: linear-gradient(to right top, #ffa658, #ea5f40);
+}
+.project-btn3 {
+  width: 80%;
+  border-radius: 2rem;
+  height: 4rem;
+  border: none;
+  margin: 2rem;
+  background: linear-gradient(to right top, #ffa658, #ea5f40);
+}
+.project-btn1,
+.project-btn1 h2 {
+  font-weight: 500;
+}
+.project-btn1:hover,
+.project-btn2:hover,
+.project-btn3:hover {
+  background: #ffa658;
+  transition: 0.4s linear;
+  transform: scale(1.05);
+}

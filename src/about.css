@@ -1,0 +1,302 @@
+/* ABOUT */
+
+.about-page {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(56, 56, 56, 1) 49%,
+    rgba(92, 92, 92, 1) 100%
+  );
+  display: flex;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.about-glass1 {
+  margin: 1rem;
+  margin-top: 10rem;
+  background: white;
+  height: 50%;
+  width: 40%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+  flex-direction: column;
+}
+.about-glass2 {
+  margin: 1rem;
+  margin-top: 3rem;
+  background: white;
+  height: 90vh;
+  width: 60%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+  display: flex;
+  flex-direction: column;
+}
+.about-glass1 p {
+  color: #eeeeee;
+  width: 90%;
+  margin: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.about-glass1 h1 {
+  color: #e0e0e0;
+  width: 100%;
+  margin: 1rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.about-glass2 h1 {
+  color: white;
+  width: 100%;
+  margin: 1rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.about-column1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.about-column2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.about-btn1 {
+  width: 30%;
+  height: 4rem;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  background: linear-gradient(to right top, #4d4d4d, #212121);
+}
+.about-btn1 h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+.about-btn1:hover {
+  background: #a6a6a6;
+  transition: 0.2s linear;
+  transform: scale(1.05);
+}
+.about-btn1:hover h2 {
+  color: black;
+}
+/* }
+.skill {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+.outer {
+  margin: 1rem;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+
+  padding: 18px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+} */
+.progress-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  text-align: left;
+  place-items: left;
+
+  /* background: white; */
+}
+.progress-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  text-align: center;
+  place-items: center;
+  margin-bottom: 2rem;
+
+  /* background: white; */
+}
+.progress-container3 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  text-align: right;
+  place-items: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* background: white; */
+}
+.circular {
+  height: 100px;
+  width: 100px;
+  /* background: red; */
+  position: relative;
+  transform: scale(1.5);
+}
+.circular:hover {
+  transition: 0.1s linear;
+  transform: scale(1.6);
+}
+.circular .inner {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+  margin: -40px 0 0 -40px;
+  background: #757575;
+  border-radius: 100%;
+}
+.circular .bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #757575;
+  clip: rect(0px, 100px, 100px, 50px);
+  border-radius: 100%;
+}
+.circle .bar .progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #e0e0e0;
+  clip: rect(0px, 50px, 100px, 0px);
+  border-radius: 100%;
+}
+.circle .left .progress {
+  z-index: 1;
+  animation: left 2s linear both;
+}
+@keyframes left {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.circle .right1 {
+  z-index: 3;
+  transform: rotate(60deg);
+}
+.circle .right2 {
+  z-index: 3;
+  transform: rotate(0deg);
+}
+.circle .right3 {
+  z-index: 3;
+  transform: rotate(115deg);
+}
+.circle .right4 {
+  z-index: 3;
+  transform: rotate(115deg);
+}
+.circle .right5 {
+  z-index: 3;
+  transform: rotate(55deg);
+}
+.circle .right6 {
+  z-index: 3;
+  transform: rotate(140deg);
+}
+.circle .right7 {
+  z-index: 3;
+  transform: rotate(80deg);
+}
+.circle .right7 {
+  z-index: 3;
+  transform: rotate(0deg);
+}
+
+.circle .right .progress {
+  animation: right 2s linear both;
+  animation-delay: 2s;
+}
+.circle .right1 .progress {
+  animation: right 2s linear both;
+  animation-delay: 0.7s;
+}
+.circle .right2 .progress {
+  animation: right 2s linear both;
+  animation-delay: 0s;
+}
+.circle .right3 .progress {
+  animation: right 2s linear both;
+  animation-delay: 1.3s;
+}
+.circle .right4 .progress {
+  animation: right 2s linear both;
+  animation-delay: 1.3s;
+}
+.circle .right5 .progress {
+  animation: right 2s linear both;
+  animation-delay: 0.8s;
+}
+.circle .right6 .progress {
+  animation: right 2s linear both;
+  animation-delay: 1.5s;
+}
+.circle .right7 .progress {
+  animation: right 2s linear both;
+  animation-delay: 1s;
+}
+.circle .right8 .progress {
+  animation: right 2s linear both;
+  animation-delay: 0s;
+}
+
+@keyframes right {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.circular .numb1,
+.numb2,
+.numb3,
+.numb4,
+.numb5,
+.numb6,
+.numb7,
+.numb8,
+.numb9 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+.progress-column {
+  display: flex;
+  flex-direction: column;
+}
+.progress-column h3 {
+  z-index: 10;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+}
